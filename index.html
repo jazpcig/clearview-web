@@ -4,38 +4,123 @@
 <meta charset="UTF-8">
 <title>Clearview Advisors</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <style>
 body {
-  font-family: Arial, sans-serif;
-  background: #0b0b0b;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #0a0a0a;
   color: #eaeaea;
   margin: 0;
 }
-section {
-  max-width: 900px;
+
+.container {
+  max-width: 1000px;
   margin: auto;
   padding: 80px 20px;
 }
-h1 { font-size: 42px; }
-p { color: #bbb; }
+
+h1 {
+  font-size: 52px;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #aaa;
+  font-size: 18px;
+}
+
+.hero {
+  padding-top: 120px;
+}
+
 .cta {
-  margin-top: 20px;
+  margin-top: 30px;
   display: inline-block;
-  padding: 12px 20px;
+  padding: 14px 26px;
   background: #fff;
   color: #000;
   text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.section {
+  border-top: 1px solid #222;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.card {
+  background: #111;
+  padding: 25px;
+  border-radius: 6px;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px 20px;
+  color: #666;
 }
 </style>
 </head>
 
 <body>
 
-<section>
-<h1>We build crypto ramp operations that banks accept</h1>
-<p>Operational AML, not paperwork.</p>
-<a class="cta" href="#">Request a review</a>
-</section>
+<div class="container hero">
+  <h1>We design crypto ramps that don’t get shut down by banks</h1>
+  <p>
+    Operational AML, not paperwork. We build real transaction flows that work in production.
+  </p>
+  <a class="cta" href="mailto:tuemail@dominio.com">Request a review</a>
+</div>
+
+<div class="container section">
+  <h2>The problem</h2>
+  <p>
+    Most crypto companies fail because their AML exists on paper, not in operations.
+    Banks close you when your flows don’t make sense.
+  </p>
+</div>
+
+<div class="container section">
+  <h2>What we do</h2>
+  <div class="grid">
+    <div class="card">Fiat to crypto transaction flows</div>
+    <div class="card">KYC & KYT integration</div>
+    <div class="card">Payment and liquidity logic</div>
+    <div class="card">Fraud & bank risk handling</div>
+  </div>
+</div>
+
+<div class="container section">
+  <h2>Services</h2>
+  <div class="grid">
+    <div class="card"><strong>Ramp AML Audit</strong><br>Identify failure points</div>
+    <div class="card"><strong>Risk Assessment</strong><br>Map operational risks</div>
+    <div class="card"><strong>Compliance Setup</strong><br>Build AML systems</div>
+    <div class="card"><strong>Operational Design</strong><br>End-to-end ramp</div>
+  </div>
+</div>
+
+<div class="container section">
+  <h2>How we work</h2>
+  <p>
+    We map your flow, identify failure points, redesign operations, and deliver executable systems.
+  </p>
+</div>
+
+<div class="footer">
+  Clearview Advisors
+</div>
 
 </body>
 </html>
